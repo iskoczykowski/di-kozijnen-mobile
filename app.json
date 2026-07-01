@@ -5,7 +5,6 @@
     "version": "1.0.0",
     "orientation": "landscape",
     "userInterfaceStyle": "light",
-
     "android": {
       "package": "com.di.kozijnen.mobile",
       "permissions": [
@@ -18,13 +17,6 @@
         "CAMERA",
         "READ_MEDIA_IMAGES"
       ]
-    },
-
-    "plugins": [
-      [
-        "react-native-ble-plx",
-        {}
-      ]
-    ]
+    }
   }
 }
