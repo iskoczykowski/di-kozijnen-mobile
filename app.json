@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "D&I Kozijnen Mobile",
+    "slug": "di-kozijnen-mobile",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "userInterfaceStyle": "light",
+
+    "android": {
+      "package": "com.di.kozijnen.mobile",
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_SCAN",
+        "BLUETOOTH_CONNECT",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+
+    "plugins": [
+      [
+        "react-native-ble-plx",
+        {}
+      ]
+    ]
+  }
+}
